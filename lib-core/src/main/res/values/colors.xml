@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_white">#ffffff</color>
+    <color name="color_line">#dddddd</color>
+    <!--背景颜色start....................................................................-->
+    <color name="base_background">#f3f5f7</color>
+
+
+
+    <!--一般字体颜色start-->
+    <color name="color_text_primary">#333333</color>
+    <color name="color_text_secondary">#666666</color>
+    <color name="color_text_tertiary">#999999</color>
+</resources>

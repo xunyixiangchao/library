@@ -1,0 +1,3 @@
+include 'lib-core',':view'
+project(':view').projectDir=new File('../view/')
+//include ':view:navigation'

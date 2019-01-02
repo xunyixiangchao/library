@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="3.5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6.5"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/public_wifi_pic" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:text="网络君正在偷懒~点击屏幕叫它回来"
+            android:textColor="@color/color_text_tertiary"
+            android:textSize="14.4dp" />
+
+
+        <TextView
+            android:id="@+id/tv_dialog_retry"
+            android:layout_width="166dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="29dp"
+            android:background="@drawable/public_choice"
+            android:gravity="center"
+            android:text="重新加载"
+            android:textColor="#333333"
+            android:textSize="11dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

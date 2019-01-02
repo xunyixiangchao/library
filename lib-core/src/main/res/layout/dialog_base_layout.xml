@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frame_dialog_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dip"
+        android:text="标题"
+        android:textColor="#ffb000"
+        android:textSize="13.44dip" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dip"
+        android:layout_marginTop="24dip">
+
+        <TextView
+            android:id="@+id/tv_dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="9dip"
+            android:paddingRight="9dip"
+            android:text=""
+            android:textColor="#333333"
+            android:textSize="11.52dip" />
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#dddddd" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38.3333333dip">
+
+        <TextView
+            android:id="@+id/bt_dialog_button1"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/frame_button_selector"
+            android:gravity="center"
+            android:text="按钮1"
+            android:textColor="#666666"
+            android:textSize="14.4dip" />
+
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#dddddd" />
+
+        <TextView
+            android:id="@+id/bt_dialog_button2"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/frame_button_selector"
+            android:gravity="center"
+            android:text="按钮2"
+            android:textColor="#666666"
+            android:textSize="14.4dip" />
+    </LinearLayout>
+</LinearLayout>

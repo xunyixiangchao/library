@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/group_custom_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-46dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/index_loadding01" />
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/iv_bee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/iv_background"
+                android:layout_alignRight="@id/iv_background"
+                android:src="@drawable/index_loadding02" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/view_loading"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="-46dp"
+            android:src="@drawable/le_loading_anim" />
+    </LinearLayout>
+
+</LinearLayout>

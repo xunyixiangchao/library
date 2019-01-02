@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <!--<layer-list>-->
+        <!--<item>-->
+        <shape>
+            <!-- 矩形的圆角半径 -->
+            <corners android:bottomLeftRadius="6dp" android:bottomRightRadius="6dp" />
+            <solid android:color="@android:color/white" />
+        </shape>
+        <!--</item>-->
+        <!--<item>-->
+        <!--<color android:color="@android:color/white" />-->
+        <!--</item>-->
+        <!--</layer-list>-->
+    </item>
+
+    <item android:state_pressed="true">
+        <!--<layer-list>-->
+        <!--<item>-->
+        <shape>
+            <!-- 矩形的圆角半径 -->
+            <corners android:bottomLeftRadius="6dp" android:bottomRightRadius="6dp" />
+            <solid android:color="#cacaca" />
+        </shape>
+        <!--</item>-->
+        <!--<item>-->
+        <!--<color android:color="#cacaca" />-->
+        <!--</item>-->
+        <!--</layer-list>-->
+    </item>
+
+</selector>
+
